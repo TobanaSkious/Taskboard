@@ -1,0 +1,40 @@
+body
+{
+	margin: 0;
+	background-color: silver;
+	font-family:Georgia;
+}
+.login_table
+{
+	border-spacing:0;
+	background-color: #fff;
+	padding: 40px 30px;
+	margin: auto;
+	border:3px solid lightgray;
+	box-shadow:0 19px 3px -9px #334;
+	border-radius: 4px;
+	margin-top:4%;/*Now*/
+}
+.login_table tr td
+{
+	padding:5px;
+}
+.login_table tr td input[type="text"],
+.login_table tr td input[type="password"]
+{
+	padding:3px;
+	font-size:13px;
+	border:1px solid #999;
+	width:200px;
+	outline:0;
+}
+.login_table tr td input[type="submit"]
+{
+	background-color:#000;
+	color:#fff;
+	padding:5px;
+	width:80px;
+	border:1px solid #333;
+	font-family:Georgia;
+	border-radius:3px;
+}
